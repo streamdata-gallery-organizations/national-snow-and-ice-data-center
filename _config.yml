@@ -1,0 +1,18 @@
+title: Streamdata API Gallery - National Snow and Ice Data Center
+description: A gallery of APIs to demonstrate what is possible when it comes to making data, content, and algorithms more real time, and event-driven as part of the API economy.
+url: national-snow-and-ice-data-center.streamdata.gallery
+tag: National Snow and Ice Data Center
+markdown: kramdown
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
+github_user: streamdata-gallery-entities
+github_repo: national-snow-and-ice-data-center
+github_branch: master
+collections:
+  listings:
+    output: true
+    permalink: /listings/:path/
+defaults:
+  - scope:
+      type: listings
+    values:
+      layout: listings
